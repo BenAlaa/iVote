@@ -41,6 +41,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 
+# Test Creadintials
+
+1. `email: sarah.edo@ivote.com`,  `password: 12345`
+2. `email: tyler.mcginnis@ivote.com`,  `password: 12345`
+3. `email: john.doe@ivote.com`,  `password: 12345`
+
+
+
+
+
 
 ## Project Overview
 - In the "Would You Rather?" Project, you'll build a web app that lets a user play the “Would You Rather?” game. The game goes like this: A user is asked a question in the form: “Would you rather [option A] or [option B] ?”. Answering "neither" or "both" is against the rules.
