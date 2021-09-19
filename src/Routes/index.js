@@ -20,7 +20,7 @@ const Routes = (props) => {
   return (
   <BrowserRouter>
     <LoadingBar />
-    {user && <Navbar />}
+    <Navbar />
     <Fragment>
       <Suspense
         fallback={
