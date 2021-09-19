@@ -62,7 +62,7 @@ In your app, users will be able to answer questions, see which questions they ha
 ## App Functionality
 - The person using your application should have a way of logging in as an existing user or create new user.
 - Your application should work correctly regardless of which user is selected.
-- Once the user logs in, the home page should be shown ['/dashboad].
+- Once the user logs in, the home page should be shown ['/home].
 
 
 - We always want to make sure we know who the logged in user is, so information about the logged in user should appear on the page.

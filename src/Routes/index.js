@@ -31,11 +31,11 @@ const Routes = (props) => {
       >
         <Switch>
           <LimitedRoute exact path="/login" component={() => <Login {...props} />} />
-          <PrivateRoute exact path="/dashboard" component={() => <Dashboard {...props} />} />
+          <PrivateRoute exact path="/home" component={() => <Dashboard {...props} />} />
           <PrivateRoute exact path="/leaderboard" component={() => <Leaderboard {...props} />} />
           <PrivateRoute exact path="/add" component={() => <NewQuestion {...props} />} />
           <PrivateRoute exact path="/question/:id" component={() => <Question {...props} />} />
-          <Redirect from="/" exact to="/dashboard" />
+          <Redirect from="/" exact to="/home" />
           <Route path="/not-found" component={() => <NotFound />} />
           <Redirect from="*" to="/not-found" />
         </Switch>
