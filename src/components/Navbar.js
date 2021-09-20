@@ -9,7 +9,7 @@ import LightLogo from '../assets/logo.png';
 
 
 const routes = [
-  { name: 'Dashboard', path: '/dashboard', current: true },
+  { name: 'Dashboard', path: '/home', current: true },
   { name: 'New Question', path: '/add', current: false },
   { name: 'Leader Board', path: '/leaderboard', current: false },
 ]
